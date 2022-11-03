@@ -33,7 +33,7 @@ async function bootstrap() {
     }) 
 
     await fastify.listen({
-        port: 3333, hots: "0.0.0.0"
+        port: 3333, host: "0.0.0.0"
     })
 }
 
